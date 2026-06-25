@@ -5,6 +5,7 @@ use serde::Deserialize;
 pub struct Bench<'a> {
     pub cpu: &'a str,
     pub site: Site,
+    pub queue: &'a str,
     pub node: &'a str,
 }
 

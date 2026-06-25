@@ -17,9 +17,6 @@ pub struct Args {
     pub command: String,
 
     #[clap(short, long)]
-    pub queue: Option<String>,
-
-    #[clap(short, long)]
     pub directory: Option<String>,
 
     #[clap(long)]
@@ -27,4 +24,7 @@ pub struct Args {
 
     #[clap(long)]
     pub stderr: Option<String>,
+
+    #[clap(short, long)]
+    pub output: Option<PathBuf>,
 }
