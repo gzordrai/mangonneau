@@ -320,7 +320,7 @@ dependencies = [
 [[package]]
 name = "g5k"
 version = "0.1.0"
-source = "git+https://github.com/gzordrai/g5k#ab063f712a53c4adc0921d89c08a22ccb4b30acb"
+source = "git+https://github.com/gzordrai/g5k#7ee6cd76e43be0a26e95e9dbb8d24a4dcb717939"
 dependencies = [
  "reqwest",
  "secrecy",
@@ -717,6 +717,7 @@ version = "0.1.0"
 dependencies = [
  "clap",
  "g5k",
+ "serde",
  "thiserror",
  "tokio",
  "toml",
