@@ -10,3 +10,4 @@ tokio = { version = "1.52.3", features = ["macros", "rt-multi-thread"] }
 toml = "1.1.2"
 g5k = { git = "https://github.com/gzordrai/g5k" }
 serde = { version = "1.0.228", features = ["derive"] }
+futures = "0.3.32"
